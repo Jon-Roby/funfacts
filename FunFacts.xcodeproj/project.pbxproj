@@ -13,6 +13,7 @@
 		90FA119B1B613D2900F93DE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FA119A1B613D2900F93DE2 /* Images.xcassets */; };
 		90FA119E1B613D2900F93DE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90FA119C1B613D2900F93DE2 /* LaunchScreen.xib */; };
 		90FA11AA1B613D2900F93DE2 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA11A91B613D2900F93DE2 /* FunFactsTests.swift */; };
+		90FA11B41B6148D900F93DE2 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FA11B31B6148D900F93DE2 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		90FA11A31B613D2900F93DE2 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA11A81B613D2900F93DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90FA11A91B613D2900F93DE2 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		90FA11B31B6148D900F93DE2 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				90FA119A1B613D2900F93DE2 /* Images.xcassets */,
 				90FA119C1B613D2900F93DE2 /* LaunchScreen.xib */,
 				90FA11911B613D2900F93DE2 /* Supporting Files */,
+				90FA11B31B6148D900F93DE2 /* FactBook.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FA11B41B6148D900F93DE2 /* FactBook.swift in Sources */,
 				90FA11961B613D2900F93DE2 /* ViewController.swift in Sources */,
 				90FA11941B613D2900F93DE2 /* AppDelegate.swift in Sources */,
 			);
